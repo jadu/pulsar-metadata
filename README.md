@@ -3,6 +3,10 @@
 Provides a simple way to mark up key/value information provided by a Twig hash
 or JSON object.
 
+## Documentation
+
+https://jadu.github.io/pulsar/docs/components/metadata
+
 ## Example usage
 
 ```twig
