@@ -3,7 +3,7 @@
 Provides a simple way to mark up key/value information provided by a Twig hash
 or JSON object.
 
-## Documentation
+## Documentation
 
 https://jadu.github.io/pulsar/docs/components/metadata
 
@@ -20,6 +20,12 @@ https://jadu.github.io/pulsar/docs/components/metadata
     })
 }}
 ```
+
+## Variations
+
+Class | Behaviour |
+----- | --------- |
+| `.metadata--stacked` | Verically align keys and values |
 
 ## Options
 
