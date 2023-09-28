@@ -1,0 +1,14 @@
+{
+    "name": "jadu/pulsar-metadata",
+    "description": "Provides a simple way to mark up key/value information provided by a Twig hash or JSON object",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Jadu\\Pulsar": "src"
+        }
+    },
+    "require": {
+        "twig/twig": "^2.0",
+        "jadu/twig-attribute-parser": "^1.0"
+    }
+}

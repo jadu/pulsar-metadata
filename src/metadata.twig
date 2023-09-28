@@ -1,0 +1,21 @@
+{% macro metadata(options) %}
+{% apply spaceless %}
+
+    <dl{{
+        attributes(options
+            |exclude('items')
+            |defaults({
+                'class': 'metadata'
+            })
+        )
+    }}>
+    {% for key, value in options.items %}
+
+           <dt class="metadata__key">{{ key }}</dt><!--
+        --><dd class="metadata__value">{{ value|raw }}</dd>
+
+    {% endfor %}
+    </dl>
+
+{% endapply %}
+{% endmacro %}
