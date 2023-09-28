@@ -30,3 +30,18 @@
         }
     }
 }
+
+.metadata--stacked {
+    .metadata__key,
+    .metadata__value {
+        width: 100%;
+
+        @include respond-min($screen-phone) {
+            padding: 0;
+        }
+    }
+
+    .metadata__value {
+        margin-bottom: 1em;
+    }
+}
